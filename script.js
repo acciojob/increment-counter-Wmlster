@@ -6,5 +6,5 @@ function click(){
 	let Counter=document.getElementById('counter').innerHTML;
 	alert(Counter);
 	Counter++;
-	counter.innerHTML=Counter;
+	document.getElementById('counter').innerHTML=Counter;
 }
