@@ -3,9 +3,9 @@ document.addEventListener("click",click);
  
 
 function click(){
-	let count=document.getElementById('counter');
-	let num=count.innerHTML;
-	alert(num);
-	num++;
-	counter.innerHTML=num;
+	let num=document.getElementById('counter');
+	let counter=num.innerHTML;
+	alert(counter);
+	counter++;
+	counter.innerHTML=counter;
 }
