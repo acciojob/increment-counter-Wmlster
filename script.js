@@ -1,6 +1,6 @@
 //your JS code here. If required.
-document.addEventListener("click",click);
-
+document.addEventListener("click",click); 
+ 
 
 function click(){
 	let count=document.getElementById('counter');
