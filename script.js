@@ -2,8 +2,9 @@
 
 function incrementBtn(){  
     Counter=document.getElementById('counter').innerHTML;
-	alert(Counter);
-	Counter++;
-	document.getElementById('counter').innerHTML=Counter;
+	let num=parseInt(Counter);
+	alert(num);
+	num++;
+	document.getElementById('counter').innerHTML=num;
 }
 
